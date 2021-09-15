@@ -1,0 +1,438 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header img {
+    width: 86px;
+    height: auto;
+    margin-top: 14px;
+}
+
+.header {
+    background-color: #ec116d;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+.header ul {
+    text-align: right;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    color: white;
+    text-transform: capitalize;
+    margin-left: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    transition: .5s;
+}
+
+.header ul li:hover > a {
+    color: yellow;
+}
+
+/* drop down section  */
+
+
+
+/* banner section */
+
+.banner {
+    text-align: center;
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 180px 0;
+    background-image: url(./templeat-2/ia_100000040.jpg);
+}
+
+.div1 {}
+
+.div1 img {
+    position: relative;
+    bottom: 69px;
+    /*! margin-bottom: 100px; */
+    margin-top: 129px;
+}
+
+.banner h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    bottom: 51px;
+    letter-spacing: 2px;
+}
+
+.banner p {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+
+    position: relative;
+    bottom: 44px;
+}
+
+/* .banner p::before{
+    content: "";
+    display: block;
+    height: 1px; 
+    width: 30px;
+    background: white;
+} */
+
+.div2 {}
+
+.div2 a {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 13px 25px;
+    position: relative;
+    bottom: 42px;
+    transition: .5s;
+}
+
+.div2 a:hover {
+    border: 1px solid #ec116d;
+    background: white;
+    color: #ec116d;
+}
+
+/* cont part */
+
+.cont {
+    margin-top: 100px;
+    box-shadow: 6px 1px 32px #f2f3f8;
+    /* position: absolute;
+    left: 107px; */
+    padding-bottom: 50px;
+}
+
+.cont img {
+    background: #eaedf4;
+}
+
+.div3 {
+    margin-left: 20px;
+}
+
+.div3 h5 {
+    font-size: 21px;
+    font-weight: 700;
+    background: #fcc747;
+    display: inline-block;
+    padding: 11px 25px;
+    text-transform: capitalize;
+    color: black;
+    margin-top: 29px;
+    margin-bottom: 30px;
+}
+
+.div3 h2 {
+    font-size: 27px;
+    font-weight: 500;
+    color: black;
+    max-width: 535px;
+    margin-bottom: 20px;
+}
+
+.div3 p {
+    color: #838494;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.div4 h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7c5063;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.div4 span {
+    position: relative;
+    margin-left: 20%;
+    color: #7c5063;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.cv {
+    position: relative;
+    left: 17px;
+}
+
+.na {
+    position: relative;
+    right: 60px;
+}
+
+.kb {
+    position: relative;
+    right: 25px;
+}
+
+.div3 a {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background: #3243e3;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 17px 29px;
+    transition: .5s;
+    display: inline-block;
+}
+
+.div3 a:hover {
+    background-color: #0c1cac;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.about h4 {
+    background-color: #fcc747;
+    padding: 8px 17px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.about h1 {
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 800px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.div5 {}
+
+.div5 {} 
+
+.div5 ul {
+    list-style: none;
+}
+
+.div5 ul li {
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 0 15px;
+    list-style: none;
+    position: relative;
+    right: 50px;
+}
+
+.div5 del {
+    color: red; 
+}
+
+.skil{}
+.skil h4{
+    background-color: #fcc747;
+    padding: 8px 12px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 100px;
+}
+.skil h1{
+    max-width: 800px;
+    font-weight: 700;
+    margin-bottom: 70px;
+
+}
+
+.img-div img{
+    display: inline-block;
+}
+.cn-div h4{
+   
+}
+.img-div{
+    float: left;
+}
+    
+.cn-div{
+    
+}
+.Consultancy{
+    margin-bottom: 50px;
+}
+.Consultancy img{
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+}
+.Consultancy h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.number{
+    background-image: url(./templeat-2/ia_100000041.jpg);
+    padding: 90px 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+}
+.number h1{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 50px;
+   margin-top: 30px;
+}
+.number p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+.education{}
+.education h4{
+    background-color: #fcc747;
+    padding: 8px 12px;
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 100px;
+}
+.education h1{
+    max-width: 800px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.vs-div{
+    position: relative;    
+    left: 300px;
+    bottom: 120px;
+}
+.main{
+    position: relative;
+    top: 40px;
+   
+}
+.ms-div{
+
+
+
+}
+.ms-div h6{
+    background-color: #ec116c;
+    padding: 8px 15px;
+    display: inline-block;
+    color: white;
+    margin-bottom: 20px;
+}
+.ms-div h4{
+    font-weight: 700;
+    color: black;
+}
+.vs-div p{
+    max-width: 400px;
+   font-size: 18px;
+   line-height: 30px;
+}
+.ms-div h5{
+    font-size: 16px;
+}
+
+.ns{
+    position: relative;
+    bottom: 50px;
+}
+.db{
+    position: relative;
+    bottom: 120px;
+}
+
+.employment{
+    position: relative;
+    background-color: #f0f4fd;
+}
+.employment h6{
+    position: relative;
+    bottom: 170px;
+    background: goldenrod;
+    padding: 8px 15px;
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+}
+.employment h1{
+    max-width: 700px;
+    font-weight: 700;
+    color: black;
+    position: relative;
+    bottom: 150px;
+}
+
+.directore{
+    text-align: left;
+    background-color: #f0f4fd;
+    padding-bottom: 60px;
+}
+.directore img{
+    height: 20px;
+    width: auto;
+}
+.dir{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dir h6{
+    display: inline-block;
+    background-color: #ec116c;
+    padding: 6px 13px;
+    margin-right: 10px;
+}
+.dir h5{ 
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+}
+.dm{
+}
+.directore p{
+    font-size: 14px;
+    max-width: 300px;
+}
+.am{
+    margin-left: 60px;
+}
+.jm{
+    margin-left: 40px;
+    
+}
